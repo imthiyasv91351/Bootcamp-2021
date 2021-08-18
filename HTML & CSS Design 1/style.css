@@ -173,27 +173,42 @@ p{
 
 
 .btnBack {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
+    border-radius: 0px solid black;
     opacity: 95%;
-    border-radius: 0px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     background: #000000;
     padding: 15px 189px 16px 189px;
-    text-decoration: none;
     position: fixed;
     top: 686px;
   }
-  
-  .btnBack:hover {
-    text-decoration: none;
+
+  #backButtonText{
+    opacity: 70%;
   }
 
-/* .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-} */
+
+  .container, .main {
+    animation: dissolve 0.3s;
+    animation-timing-function: ease-out;
+  }
+
+  
+  
+  @keyframes dissolve {
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 1;
+      }
+  } 
+  /* .btnBack:hover {
+    text-decoration: none;
+  } */
+
+
 
 /* .titleBox {
   padding: 2px 16px;
