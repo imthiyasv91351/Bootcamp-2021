@@ -1,0 +1,124 @@
+body{
+    width: 414px;
+    height: 736px;
+    border: 1px solid #ccc;
+    margin: 0;
+    /* height: 736px;
+    width: 414px;  */
+    /* border: 1px solid #ccc; */
+}
+
+/* section{
+    height: 736px;
+    width: 414px;
+    border: 1px solid #ccc;
+} */
+
+p{
+    margin-left: 27px;
+    margin-right: 51px;
+    font-size: 46px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 0;   
+}
+
+#headBold{
+    font-weight: 700;
+}
+
+.logo{
+    width: 131px;
+    height: 50px;
+    padding: 37px 256px 60px 27px;
+}
+
+.sofaImage{
+    width: 284px;
+    height: 313px;
+    margin-left: 27px;
+    float: left;
+    position: relative;
+    
+}
+
+
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 21px;
+    background: #224D4F;
+    padding: 24px 41px 24px 41px;
+    text-decoration: none;
+    position: relative;
+    left: 195px;
+    top: 608;
+    bottom: 88px;
+  }
+  
+  /* .btn:hover {
+    background: #348ec7;
+    text-decoration: none;
+  } */
+
+.row1{
+      width: 300px;
+      height: 400px;
+      background-color: #0ebfc9;
+  }
+
+  .column1{
+    width: 172px;
+    height: 202px;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.container{
+    padding: 27px;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; */
+  background-image: url("images/sofa.jpeg");
+  background-size: 172px 202px;
+  width: 172px;
+  height: 202px;
+  border-radius: 10px;
+}
+
+.titleBox{
+    background-color: #224D4F;
+    width: 171px;
+    height: 43px;
+    position: relative;
+    top: 159px;
+    border-radius: 0px 0px 10px 10px;
+    
+    /* padding: 59px 101px 13px 11px; */
+}
+
+#titleHere{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    position: relative;
+    top: 14px;
+    left: 11px;
+}
+
+
+
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+/* .titleBox {
+  padding: 2px 16px;
+} */
