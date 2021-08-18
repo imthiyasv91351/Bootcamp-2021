@@ -1,13 +1,13 @@
 body{
     width: 414px;
     height: 736px;
-    border: 1px solid #ccc;
     margin: 0;
 }
 
 p{
     margin-left: 27px;
     margin-right: 51px;
+    color: #224D4F;
     font-size: 46px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif; 
@@ -162,7 +162,24 @@ p{
     left: 11px;
 }
 
-
+.btnBack {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    opacity: 95%;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #FFFFFF;
+    font-size: 16px;
+    background: #000000;
+    padding: 15px 189px 16px 189px;
+    text-decoration: none;
+    position: fixed;
+    top: 686px;
+  }
+  
+  .btnBack:hover {
+    text-decoration: none;
+  }
 
 /* .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
