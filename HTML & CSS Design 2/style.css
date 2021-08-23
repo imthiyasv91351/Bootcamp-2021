@@ -119,11 +119,38 @@ p{
     margin-top: 30px;
 }
 
+.duration{
+    width: 133px;
+    height: 144px;
+    border-radius: 12px;  
+    color: #FFFFFF; 
+}
+
+.row1 .duration{
+    background: #111529;
+}
+
+.row2 .duration{
+    background: #F75726;
+}
+
+.content{
+    width: 298px;
+    height: 89px;
+    margin: 27px 0 41px 35px;
+}
+
+.content p{
+    margin-top: 10px;
+}
+
 .row1, .row2{
     width: 552px;
     height: 170px;
     background: #FFFFFF;
     border-radius: 24px;
+    padding: 13px 24px;
+    display: flex;
 }
 
 .row2{
@@ -132,6 +159,27 @@ p{
     height: 170px;
     background: #FFFFFF;
     border-radius: 24px; */
+}
+
+.digit{
+    font-size: 86px;
+    font-weight: 500;
+    text-align: center;
+    width: 48px;
+    height: 101px;
+    margin-left: 43px;
+}
+
+.lowerText{
+    font-size: 16px;
+    font-weight: 500;
+    width: 70px;
+    height: 40px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 13px;
 }
 
 .bottomRight{
