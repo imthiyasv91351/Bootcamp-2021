@@ -48,6 +48,10 @@ p{
     margin-right: 250px;
 }
 
+.firstRow, .secondRow{
+    display: flex;
+}
+
 .topLeft{
     width: 552px;
     float: left;
@@ -75,9 +79,37 @@ p{
     width: 358px;
     height: 337px;
     background: #FFFFFF;
-    position: relative;
-    left: 582px;
+    margin-left: 30px;
     border-radius: 24px;
+}
+
+.topRight h3{
+    text-align: center;
+    margin-top: 36.83px;
+    margin-left: 93px;
+    width: 174px;
+    height: 48px;
+    color: #111529;
+}
+
+.topRight p{
+    text-align: center;
+    width: 231px;
+    height: 44px;
+    margin: 16px 64px;
+}
+
+.topRight a{
+    margin: 27px 145px 21px;
+    font-size: 0.875rem;
+    color: #644AEE;
+    font-weight: 500;
+}
+
+
+#shapeImage{
+    margin-top: 34px;
+    margin-left: 152px;
 }
 
 .bottomLeft{
@@ -107,8 +139,7 @@ p{
     width: 358px;
     height: 350px;
     background: #111529 0% 0% no-repeat padding-box;
-    position: relative;
-    left: 582px;
+    margin-left: 30px;
     border-radius: 24px;
 }
 
