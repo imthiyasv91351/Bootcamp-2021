@@ -16,12 +16,26 @@ h1{
     color: #111529;
 }
 
+h2{
+   font-size: 1.6875rem;
+   font-weight: 700; 
+   color: #111529;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #111529;
+    padding: 34px 0 30px 0;
+}
+
 p{
     font-size: 1.5rem;
     font: italic normal normal 1.5rem Roboto;
+    color: #000000;
 }
 
-.main{
+.main-container{
     margin: 47px 347px 56px 347px;
 }
 
@@ -42,3 +56,9 @@ p{
     position: relative;
     top: -32px;
 }
+
+.Para{
+    margin-top: 21px;
+    margin-bottom: 34px;
+}
+
