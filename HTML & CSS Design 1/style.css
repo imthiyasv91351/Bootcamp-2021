@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 body{
     width: 414px;
     height: 736px;
@@ -10,7 +14,6 @@ p{
     color: #224D4F;
     font-size: 46px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif; 
     margin-top: 0;   
 }
 
@@ -33,12 +36,8 @@ p{
     
 }
 
-
 .btn {
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
     border-radius: 3px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #FFFFFF;
     font-size: 21px;
@@ -49,106 +48,38 @@ p{
     left: 195px;
     top: 608;
     bottom: 88px;
+    border-width: 0px;
   }
-  
-  /* .btn:hover {
-    background: #348ec7;
-    text-decoration: none;
-  } */
 
-.logoGallary{
+.logoGallery{
     width: 131px;
     height: 50px;
     padding: 37px 256px 30px 27px;
 }
 
+.container{
+  margin-left: 27px;
+}
 
-#card1 {
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s; */
-  background-image: url("images/sofa.jpeg");
-  background-size: 172px 202px;
+.row{
+  display: flex;
+  margin-bottom: 19px;
+}
+
+.card {
   width: 172px;
   height: 202px;
   border-radius: 10px;
   border: 1pt solid #d5d9de;
-  position: absolute;
-  top: 117px;
-  left: 27px;
+  margin-right: 18px;
+  display: inline-block;
 }
 
-#card2 {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
-    background-image: url("images/table.jpeg");
-    background-size: 172px 202px;
-    width: 172px;
-    height: 202px;
-    border-radius: 10px;
-    border: 1pt solid #d5d9de;
-    position: absolute;
-    left: 219px;
-    top: 117px;
-  }
-
-  #card3 {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
-    background-image: url("images/bed.jpeg");
-    background-size: 172px 202px;
-    width: 172px;
-    height: 202px;
-    border-radius: 10px;
-    border: 1pt solid #d5d9de;
-    position: absolute;
-    top: 338px;
-    left: 27px;
-  }
-
-  #card4 {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
-    background-image: url("images/chair.jpeg");
-    background-size: 172px 202px;
-    width: 172px;
-    height: 202px;
-    border-radius: 10px;
-    border: 1pt solid #d5d9de;
-    position: absolute;
-    left: 219px;
-    top: 338px;
-  }
-
-  #card5 {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
-    background-image: url("images/tvstand.jpeg");
-    background-size: 172px 202px;
-    width: 172px;
-    height: 202px;
-    border-radius: 10px;
-    border: 1pt solid #d5d9de;
-    position: absolute;
-    top: 559px;
-    left: 27px;
-  }
-
-  #card6 {
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s; */
-    background-image: url("images/wardrob.jpeg");
-    background-size: 172px 202px;
-    width: 172px;
-    height: 202px;
-    border-radius: 10px;
-    border: 1pt solid #d5d9de;
-    position: absolute;
-    left: 219px;
-    top: 559px;
-  }
-  
-
-  
+.image{
+  width: 173px;
+  height: 202px;
+  border-radius: 10px;
+}
 
 .titleBox{
     background-color: #224D4F;
@@ -156,12 +87,11 @@ p{
     height: 44px;
     opacity: 90%;
     position: relative;
-    top: 159px;
+    top: -47px;
     border-radius: 0px 0px 10px 10px;  
 }
 
 .titleHere{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #FFFFFF;
@@ -170,32 +100,31 @@ p{
     left: 11px;
 }
 
-
-
 .btnBack {
     border-radius: 0px solid black;
     opacity: 95%;
-    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     background: #000000;
     padding: 15px 189px 16px 189px;
     position: fixed;
     top: 686px;
+    border-width: 0px;
   }
 
   #backButtonText{
     opacity: 70%;
   }
 
-
   .container, .main {
     animation: dissolve 0.3s;
     animation-timing-function: ease-out;
   }
 
-  
-  
+  .footer{
+    height: 100px;
+  }
+
   @keyframes dissolve {
       from{
           opacity: 0;
@@ -204,12 +133,3 @@ p{
           opacity: 1;
       }
   } 
-  /* .btnBack:hover {
-    text-decoration: none;
-  } */
-
-
-
-/* .titleBox {
-  padding: 2px 16px;
-} */
