@@ -29,13 +29,20 @@ h3{
     color: #111529;
 }
 
+h4{
+    font-size: 1.125rem;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 27px;
+}
+
 p{
     font-size: 1.5rem;
     font: italic normal normal 1.5rem Roboto;
     color: #000000;
 }
 
-img{
+.images{
     margin-top: 30px;
     margin-bottom: 56px;
 }
@@ -90,7 +97,7 @@ img{
     padding-top: 75px;
 }
 
-.btn {
+.btn1 {
     border-radius: 0px;
     color: #ffffff;
     font-size: 21px;
@@ -98,6 +105,7 @@ img{
     background: #20C8B2;
     padding: 24px 41px 24px 41px;
     text-decoration: none;
+    letter-spacing: 1.26px;
     border-width: 0px;
     position: relative;
     top: 43px;
@@ -106,7 +114,38 @@ img{
 
 .bottom-container{
     width: 1440px;
-    height: 360px;
-    
+    height: 360px;  
 }
 
+.bottomContent{
+    width: 1134px;
+    height: 221px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.btn2 {
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    background: #480E83;
+    padding: 24px 41px 24px 41px;
+    text-decoration: none;
+    letter-spacing: 1.26px;
+    border-width: 0px;
+    margin-top: 38px;
+}
+
+
+.left h1{
+    width: 437px;
+    height: 111px;  
+}
+
+.right{
+    margin-left: 145px;
+}
