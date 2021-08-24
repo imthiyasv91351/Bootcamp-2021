@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 1440px;
+    height: 3936px;
+}
+
+h1{
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: #111529;
+}
+
+p{
+    font-size: 1.5rem;
+    font: italic normal normal 1.5rem Roboto;
+}
+
+.main{
+    margin: 47px 347px 56px 347px;
+}
+
+#logo{
+    width: 79px;
+    height: 87px;
+}
+
+.mainHead{
+    margin-top: 34px;
+    width: 582px;
+    height: 249px;
+}
+
+#introImage{
+    width: 746px;
+    height: 498px;
+    position: relative;
+    top: -32px;
+}
