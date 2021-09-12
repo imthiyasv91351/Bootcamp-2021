@@ -128,6 +128,11 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  --primaryColor: #111529;
+  --secondaryColor: #ffffff;
+}
+
 *,
 *:before,
 *:after {
@@ -135,8 +140,6 @@ table {
 }
 
 body {
-  /* width: 1440px;
-  height: 3936px; */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
@@ -179,10 +182,10 @@ a {
 header {
   width: 100%;
   padding: 1rem 0;
-  /* max-width: 1170px; */
-  /* display: flex;
-  align-items: center;
-  margin: 0 auto; */
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
 .header {
@@ -190,12 +193,31 @@ header {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   justify-content: start;
 }
 
 .header .brandLogo {
-  margin-right: 5rem;
+  margin-right: 10rem;
+}
+
+.brandLogo img {
+  width: 60px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.brandLogo #logoName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: absolute;
+  top: 2.5rem;
+}
+
+.header nav {
+  display: block;
+  align-items: center;
+  margin: auto;
 }
 
 .header nav ul {
@@ -218,11 +240,12 @@ header {
 }
 
 .multi-nav li {
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.41rem;
 }
 
 .multi-nav li:first-child {
   padding-left: 0;
+  font-weight: 700;
 }
 
 .header .login {
@@ -230,8 +253,8 @@ header {
 }
 
 .btnRound {
-  color: #ffffff;
-  background-color: black;
+  color: var(--secondaryColor);
+  background-color: var(--primaryColor);
   padding: 1rem 2.5rem;
   border-radius: 10rem;
 }
@@ -246,7 +269,7 @@ header {
 .mainContent .content {
   max-width: 1170px;
   margin: auto;
-  padding-top: 20%;
+  padding-top: 19%;
 }
 
 .mainContent .whiteColor {
@@ -262,8 +285,8 @@ header {
 }
 
 .mainContent .btnRound {
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--primaryColor);
+  background-color: var(--secondaryColor);
 }
 
 .mainContent h1 {
@@ -310,15 +333,9 @@ header {
   font-size: 1.5rem;
   font-style: italic;
   font-weight: 300;
-  /* font: italic normal normal 1.5rem Roboto; */
   color: #000000;
   line-height: 2.125rem;
 }
-
-/* .about .portfolio .images {
-  margin-top: 30px;
-  margin-bottom: 56px;
-} */
 
 .gallery {
   margin: 0 auto;
@@ -448,5 +465,5 @@ header {
 footer {
   width: 100%;
   height: 150px;
-  background-color: #000000;
+  background-color: var(--primaryColor);
 }
