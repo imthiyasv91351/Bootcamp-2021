@@ -20,6 +20,9 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
 /* a:hover {
   color: var(--primaryColor);
 } */
@@ -52,6 +55,20 @@ h2,
   line-height: 3.375rem;
 }
 
+h4,
+.h4 {
+  font-size: 1.125rem;
+  line-height: 3.375rem;
+  padding: 0;
+  margin: 0;
+}
+
+small,
+.small {
+  font-size: 0.875em;
+  line-height: 1.3125rem;
+}
+
 p {
   font-size: 1.3125rem;
   line-height: 1.5;
@@ -72,8 +89,20 @@ header .navbar-brand {
   height: calc(100vh - 105px);
 }
 
+.main .displayImage {
+  margin: 0 auto;
+}
+
 .designSection .displayImage img {
   height: 558px;
+}
+
+.toolSection .list {
+  margin: 0 auto;
+}
+
+.toolSection .displayImage {
+  margin: auto 0;
 }
 
 /* .main .mainContent h1{
