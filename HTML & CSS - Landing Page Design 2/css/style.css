@@ -1,5 +1,7 @@
 :root {
   --primaryColor: #000000;
+  --pinkColor: #fae4f6;
+  --skyBlue: #eaecfa;
 }
 
 body {
@@ -105,6 +107,11 @@ header .navbar-brand {
   margin: auto 0;
 }
 
-/* .main .mainContent h1{
-  padding: ;
-} */
+.exampleSection .showcase {
+  background-color: var(--pinkColor);
+  border-radius: 0.5rem;
+}
+
+.exampleSection .bgColor1 {
+  background-color: var(--skyBlue);
+}
