@@ -46,6 +46,12 @@ h1,
   color: var(--primaryColor);
 }
 
+h2,
+.h2 {
+  font-size: 3rem;
+  line-height: 3.375rem;
+}
+
 p {
   font-size: 1.3125rem;
   line-height: 1.5;
@@ -61,3 +67,15 @@ header .navbar-brand {
   font-weight: 400;
   line-height: 2;
 }
+
+.main {
+  height: calc(100vh - 105px);
+}
+
+.designSection .displayImage img {
+  height: 558px;
+}
+
+/* .main .mainContent h1{
+  padding: ;
+} */
