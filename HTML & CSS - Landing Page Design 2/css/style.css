@@ -115,3 +115,22 @@ header .navbar-brand {
 .exampleSection .bgColor1 {
   background-color: var(--skyBlue);
 }
+
+.qoutes .authorImage {
+  width: 58px;
+  height: 58px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  line-height: 58px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.qoutes .authorImage img {
+  height: 100%;
+}
+.qoutes .authorName {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.5);
+}
