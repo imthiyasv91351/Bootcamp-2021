@@ -107,16 +107,16 @@ header .navbar-brand {
   margin: auto 0;
 }
 
-.exampleSection .showcase {
+.showcase {
   background-color: var(--pinkColor);
   border-radius: 0.5rem;
 }
 
-.exampleSection .bgColor1 {
+.bgColor1 {
   background-color: var(--skyBlue);
 }
 
-.qoutes .authorImage {
+.quotes .authorImage {
   width: 58px;
   height: 58px;
   background-color: #ffffff;
@@ -127,10 +127,10 @@ header .navbar-brand {
   overflow: hidden;
   border: 1px solid #ddd;
 }
-.qoutes .authorImage img {
+.quotes .authorImage img {
   height: 100%;
 }
-.qoutes .authorName {
+.quotes .authorName {
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.5);
 }
