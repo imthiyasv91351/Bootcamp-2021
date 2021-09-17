@@ -88,7 +88,8 @@ header .navbar-brand {
 }
 
 .main {
-  height: calc(100vh - 105px);
+  height: auto;
+  /* height: calc(100vh - 6.5625rem); */
 }
 
 .main .displayImage {
@@ -133,4 +134,14 @@ header .navbar-brand {
 .quotes .authorName {
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.empty1{
+  width: 642px;
+  height: 478px;
+}
+
+.empty2{
+  width: 418px;
+  height: 478px;
 }
