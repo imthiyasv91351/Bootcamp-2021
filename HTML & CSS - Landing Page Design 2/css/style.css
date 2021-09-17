@@ -145,3 +145,78 @@ header .navbar-brand {
   width: 418px;
   height: 478px;
 }
+
+.card{
+  border-radius: 8px;
+  border-width: 0;
+  font-weight: 400;
+  background-color: #F8F8F8;
+}
+
+.card span{
+  font-size: 1.18125rem;
+  line-height: 7.4375rem;
+}
+
+.card h1{
+  font-size: 6.3125rem;
+  line-height: 7.4375rem;
+}
+
+.card p{
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+.card hr{
+  opacity: 5%;
+}
+
+.card .serviceItem li{
+  font-size: 1rem;
+  line-height: 1.9375rem;
+  position: relative;
+}
+
+.serviceItem li::before{
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/rightIcon.svg');
+  position: absolute;
+  left: -30px;
+  top: 3px;
+}
+
+.starter .serviceItem li:nth-child(4)::before, .starter .serviceItem li:nth-child(5)::before{
+  opacity: 0.1;
+}
+
+.card .btn{
+  border-radius: 8px;
+}
+
+.starter .btn-outline-dark{
+  background-color: #ffffff;
+  border: 1px solid var(--primaryColor);
+  color: val(--primaryColor);
+}
+
+.starter .btn-outline-dark:hover{
+  background-color: var(--primaryColor);
+  color: #ffffff;
+}
+
+.btn-primary{
+  background-color: var(--primaryColor);
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover{
+  background-color: transparent;
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+
+
