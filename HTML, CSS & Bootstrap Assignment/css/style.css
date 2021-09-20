@@ -35,6 +35,20 @@ h1,
   font-weight: 600;
 }
 
+h2,
+.h2 {
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  font-weight: 700;
+}
+
+h3,
+.h3 {
+  font-size: 1.3125rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
 p {
   font-size: 1rem;
   line-height: 1.5;
@@ -142,4 +156,41 @@ h1 .subHead {
   margin: auto 0;
   font-size: 0.9375rem;
   color: #dad8ea;
+}
+
+.howItWorks {
+  padding: 10rem 0 3.125rem;
+}
+
+.howItWorks .content {
+  color: #1f1f1f;
+  max-width: 835px;
+  height: auto;
+  margin: 0 auto;
+}
+.content p {
+  color: #797979;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  margin-bottom: 5rem;
+}
+
+.services p {
+  font-size: 1.125rem;
+  font: normal normal normal 18px/27px Lato;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+  opacity: 0.6;
+}
+
+hr {
+  border: 4px dotted #529696;
+  border-bottom: none;
+  background: none;
+  margin: 0 auto;
+  width: 70%;
+  position: relative;
+  top: 92px;
+  z-index: -1;
+  opacity: 0.15;
 }
