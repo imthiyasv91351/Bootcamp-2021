@@ -28,9 +28,30 @@ h1,
   line-height: 1.2;
 }
 
+h1,
+.h1 {
+  font-size: 5.0625rem;
+  line-height: 5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 header li {
   padding: 0 2rem;
   font-weight: 600;
+}
+
+header li .link-secondary {
+  color: #a59ce4;
+}
+
+.link-secondary:hover {
+  color: var(--secondaryColor);
 }
 
 .blue {
@@ -48,4 +69,77 @@ header li {
 
 .btn-primary:hover {
   background-color: #3c74fe;
+}
+
+.home {
+  color: var(--secondaryColor);
+  /* background-image: url("img/Group 5026@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  /* position: relative; */
+}
+
+.home {
+  position: relative;
+  z-index: 2;
+}
+
+.home .bg-image {
+  position: absolute;
+  z-index: -1;
+}
+
+.home h1 .green {
+  color: #56fec9;
+}
+
+.home h1 .headRibbon {
+  position: relative;
+  left: -43px;
+  bottom: 20px;
+}
+
+h1 .subHead {
+  font-size: 4.1875rem;
+}
+
+.home .mainContent {
+  margin-top: 6.5625rem;
+}
+
+.mainContent p {
+  font-size: 0.9375rem;
+  color: #a59ce4;
+  margin: 1.8125rem auto 2.375rem;
+  width: 350px;
+  height: auto;
+}
+
+.google img,
+.app img {
+  width: 163px;
+  height: 48px;
+  background-color: #130755;
+  border-radius: 6px;
+}
+
+.mainInfo {
+  max-width: 964px;
+  height: auto;
+  background: transparent linear-gradient(180deg, #130755 0%, #15085b 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 22px;
+  padding: 2rem;
+  margin: 0 auto;
+  position: relative;
+  top: 74px;
+}
+
+.mainInfo p {
+  width: 200px;
+  height: auto;
+  margin: auto 0;
+  font-size: 0.9375rem;
+  color: #dad8ea;
 }
