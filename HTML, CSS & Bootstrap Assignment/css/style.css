@@ -1,0 +1,51 @@
+:root {
+  --primaryColor: #000000;
+  --secondaryColor: #ffffff;
+  --pinkColor: #f45eac;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  /* margin-top: 0;
+  margin-bottom: 0.5rem; */
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+header li {
+  padding: 0 2rem;
+  font-weight: 600;
+}
+
+.blue {
+  background: #0d1965 0% 0% no-repeat padding-box;
+}
+
+.btn {
+  border: none;
+  padding: 0.75rem 2.1875rem;
+}
+
+.btn-primary {
+  background-color: var(--pinkColor);
+}
+
+.btn-primary:hover {
+  background-color: #3c74fe;
+}
