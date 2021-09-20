@@ -210,6 +210,12 @@ hr {
   height: auto;
 }
 
+.featuresContent ul li:first-child {
+  color: var(--secondaryColor);
+  background: transparent linear-gradient(90deg, #fea128 0%, #fbd64f 100%) 0% 0%
+    no-repeat padding-box;
+}
+
 .featuresContent {
   padding: 4rem 0;
 }
