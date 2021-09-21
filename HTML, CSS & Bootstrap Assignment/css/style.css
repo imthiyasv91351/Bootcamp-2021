@@ -278,7 +278,7 @@ hr {
 
 .orderNow .btn {
   padding: 1.5625rem 4.6875rem;
-  font: normal normal 600 24px/29px Lato;
+  font: normal normal 600 1.5rem/1.8125rem Lato;
   border-radius: 0;
 }
 
@@ -294,4 +294,32 @@ hr {
 
 .orderNow .orderButton {
   margin: auto 0;
+}
+
+footer {
+  color: var(--secondaryColor);
+}
+
+.footer .footerContent {
+  padding: 4rem 0 2.125rem;
+}
+
+.footer h4 {
+  color: var(--secondaryColor);
+}
+
+.footer p {
+  font: normal normal normal 16px/19px Lato;
+  line-height: 2.25rem;
+  opacity: 0.52;
+}
+
+.footer .row p {
+  opacity: 0.7;
+}
+
+.footer a {
+  color: var(--secondaryColor);
+  text-decoration: none;
+  display: block;
 }
