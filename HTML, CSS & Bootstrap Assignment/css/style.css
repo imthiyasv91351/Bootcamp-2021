@@ -22,8 +22,6 @@ h2,
 .h2,
 h1,
 .h1 {
-  /* margin-top: 0;
-  margin-bottom: 0.5rem; */
   font-weight: 500;
   line-height: 1.2;
 }
@@ -63,17 +61,19 @@ p {
   font-weight: 400;
 }
 
-header li {
+header li{
   padding: 0 2rem;
   font-weight: 600;
 }
 
-header li .link-secondary {
-  color: #a59ce4;
+.navbar-light .navbar-nav .nav-link{
+  color: #E0DDEE;
+  opacity: 0.7;
 }
 
-.link-secondary:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: var(--secondaryColor);
+  opacity: 1;
 }
 
 .blue {
@@ -95,16 +95,8 @@ header li .link-secondary {
 
 .home {
   color: var(--secondaryColor);
-  /* background-image: url("img/Group 5026@2x.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain; */
-  /* position: relative; */
-}
-
-.home {
   position: relative;
-  z-index: 2;
+  z-index: 22;
 }
 
 .home .bg-image {
@@ -205,7 +197,7 @@ hr {
 
 .features {
   background-color: #fd0e3e;
-  padding-top: 4.0625rem;
+  padding: 4.0625rem 0;
 }
 
 .featuresContent ul li {
@@ -214,8 +206,6 @@ hr {
   background-color: var(--secondaryColor);
   margin-bottom: 1.875rem;
   border-radius: 1.75rem;
-  max-width: 452px;
-  height: auto;
 }
 
 .featuresContent ul li:first-child {
@@ -225,7 +215,7 @@ hr {
 }
 
 .featuresContent {
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .featuresContent .featureIcon {
@@ -323,3 +313,31 @@ footer {
   text-decoration: none;
   display: block;
 }
+
+@media (max-width: 992px) { 
+  header li:last-child{
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+ }
+ 
