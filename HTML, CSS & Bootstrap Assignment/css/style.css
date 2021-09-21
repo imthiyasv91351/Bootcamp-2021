@@ -54,6 +54,7 @@ h4,
   font-size: 1.125rem;
   line-height: 2rem;
   font-weight: 600;
+  color: #1f1f1f;
 }
 
 p {
@@ -248,7 +249,7 @@ hr {
 }
 
 .FAQs {
-  padding: 4.1875rem 0 6.25rem;
+  padding-top: 4.1875rem;
 }
 
 .FAQs .row {
@@ -256,8 +257,41 @@ hr {
   border-radius: 4px;
 }
 
+.FAQs .row p {
+  color: #383646;
+}
+
 .FAQs .row .downArrow {
   margin: auto 0;
   margin-left: auto;
   opacity: 0.2;
+}
+
+.orderNow {
+  background: transparent linear-gradient(90deg, #fea128 0%, #fbd64f 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 10px;
+  margin: 0 4.375rem;
+  position: relative;
+  top: 65px;
+}
+
+.orderNow .btn {
+  padding: 1.5625rem 4.6875rem;
+  font: normal normal 600 24px/29px Lato;
+  border-radius: 0;
+}
+
+.orderNow .btn-primary {
+  background: #1f1f1f;
+}
+
+.orderNow p {
+  font-size: 1rem;
+  color: #1f1f1f;
+  opacity: 0.6;
+}
+
+.orderNow .orderButton {
+  margin: auto 0;
 }
