@@ -108,10 +108,14 @@ header li{
   color: #56fec9;
 }
 
-.home h1 .headRibbon {
+.home h1 .ribbonAttach{
   position: relative;
-  left: -43px;
-  bottom: 20px;
+}
+
+.home h1 .headRibbon {
+  position: absolute;
+  right: -2px;
+  top: 17px;
 }
 
 h1 .subHead {
@@ -125,7 +129,7 @@ h1 .subHead {
 .mainContent p {
   font-size: 0.9375rem;
   color: #a59ce4;
-  margin: 1.8125rem auto 2.375rem;
+  margin: 1.8125rem auto 1.25rem;
   width: 350px;
   height: auto;
 }
@@ -245,6 +249,11 @@ hr {
 .FAQs .row {
   border: 1px solid #d3dae5;
   border-radius: 4px;
+  margin: 0 0.5rem;
+}
+
+.FAQs .content{
+  padding-right: 1rem;
 }
 
 .FAQs .row p {
@@ -263,7 +272,7 @@ hr {
   border-radius: 10px;
   margin: 0 4.375rem;
   position: relative;
-  top: 65px;
+  top: 70px;
 }
 
 .orderNow .btn {
@@ -314,30 +323,88 @@ footer {
   display: block;
 }
 
-@media (max-width: 992px) { 
-  header li:last-child{
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  .home{
+    padding-top: 1rem;
+  }
+  
+  .home .mainContent{
+    padding-top: 1rem;
+  }
+  .home .mainInfo{
+    margin: 2rem;
+  }
+  .featuresContent{
+    margin-left: 1.5rem;
+  }
+  .orderNow .btn{
+    font-size: 1.2rem;
+    padding: 1.5rem 3rem;
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) { 
-
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .orderNow .btn{
+    padding: 1rem 2rem;
+  }
+  .mainInfo{
+    position: relative;
+    top: 100px;
+  }
+  .mainInfo .info1{
+    margin-bottom: 3rem;
+  }
+  hr{
+    display: none;
+  }
  }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  header li:last-child{
+    margin: 1rem 0;
+  }
+  
+  .home h1 .headRibbon {
+    position: absolute;
+    left: 197px;
+  }
 
+  .orderNow .btn {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+  }
  }
+/* 
+// `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+  .home h1 .headRibbon {
+    position: absolute;
+    right: -18px;
+    top: 18px;
+  }
+  header li{
+    padding: 0 1rem;
+  }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+  .orderNow {
+    position: relative;
+    top: 80px;
+  }
+  .footer .footerContent {
+    padding-top: 6rem;
+  }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+}
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
- }
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
  
+ }
+
